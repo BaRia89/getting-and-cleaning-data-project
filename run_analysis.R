@@ -1,7 +1,7 @@
 ##########################################################################################################
 
 ## Coursera Getting and Cleaning Data Course Project
-## Thanh Nguyen
+## BaRia89
 ## 2017-06-25
 
 # run_analysis.R File Description:
