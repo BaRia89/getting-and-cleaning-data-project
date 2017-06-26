@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Project
 
-Thanh Nguyen
+BaRia89
 June 25, 2017
 
 Repository for the submission of the course project for the Johns Hopkins Getting and Cleaning Data course.
