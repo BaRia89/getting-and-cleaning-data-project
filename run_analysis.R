@@ -31,13 +31,13 @@ subjectTrain = read.table('./train/subject_train.txt',header=FALSE); #imports su
 xTrain       = read.table('./train/x_train.txt',header=FALSE); #imports x_train.txt
 yTrain       = read.table('./train/y_train.txt',header=FALSE); #imports y_train.txt
 
-# Assigin column names to the data imported above
+# Assign column names to the data imported above
 colnames(activityType)  = c('activityId','activityType');
 colnames(subjectTrain)  = "subjectId";
 colnames(xTrain)        = features[,2]; 
 colnames(yTrain)        = "activityId";
 
-# cCreate the final training set by merging yTrain, subjectTrain, and xTrain
+# Create the final training set by merging yTrain, subjectTrain, and xTrain
 trainingData = cbind(yTrain,subjectTrain,xTrain);
 
 # Read in the test data
